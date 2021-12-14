@@ -1,0 +1,102 @@
+main{
+  background-color: #F4EEED;
+  margin:10px;
+  padding: 10px;
+  margin: 40px 10px 80px 10px;
+}
+
+label{
+  margin: 10px 0px;
+  max-width: 300px;
+}
+
+input{
+  width: 100%;
+}
+
+button{
+  background-color: #3E3E3B;
+  color: white;
+  padding: 10px 0px;
+}
+
+button:hover{
+  background-color:#DDB7AB;
+  color: black;
+}
+
+footer{
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+}
+
+.form-error {
+  display: none;
+  color: rgb(226, 84, 84);
+  font-size: 1em;
+  margin-top: 2px;
+}
+  
+.sucsess {
+  display: none;
+}
+
+.hide{
+  display: none;
+}
+
+#form{
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+  padding: 10px 10px;
+}
+
+.sucsess{
+  max-width: 520px;
+  margin: 100px auto;
+  font-size: 1.5em;
+}
+
+
+@media screen and (min-width: 500px){
+  main{
+    margin: 60px auto;
+    padding: 50px 10px;
+  }
+
+  main h1{
+    font-size: 2em;
+  }
+
+  button{
+    margin-top: 25px;
+  }
+
+  #form{
+    max-width: 400px;
+  }
+
+  label{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  textarea{
+   width: 400px;
+  }
+
+  input{
+    height: 25px;
+  }
+
+
+}
+
+
+  
+ 
+  
